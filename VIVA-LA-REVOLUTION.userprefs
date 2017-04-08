@@ -1,10 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TargetScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AddAmmo.cs">
     <Files>
-      <File FileName="Assets\deadarrow.cs" Line="8" Column="49" />
-      <File FileName="Assets\ArrowRotation.cs" Line="36" Column="37" />
-      <File FileName="Assets\TargetScript.cs" Line="9" Column="13" />
+      <File FileName="Assets\deadarrow.cs" Line="17" Column="1" />
+      <File FileName="Assets\ArrowRotation.cs" Line="1" Column="1" />
+      <File FileName="Assets\FireBow.cs" Line="55" Column="21" />
+      <File FileName="Assets\AddAmmo.cs" Line="8" Column="22" />
+      <File FileName="Assets\ExplosiveArrow.cs" Line="16" Column="5" />
+      <File FileName="Assets\PlayerState.cs" Line="23" Column="1" />
+      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="18" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
