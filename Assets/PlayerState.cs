@@ -15,8 +15,14 @@ public class PlayerState : MonoBehaviour {
 		if (currentHealth <= 0f)
 			Die ();
 	}
+	void OnGUI() {
+		GUI.Label (new Rect (0, 0, 200, 100), "Health: " + currentHealth);
+
+	}
 
 	private void Die(){
+		GetComponent<CharacterController> ().enabled = false;
+		GetComponent<Animator> ().Play("DEATH");
 		return; //do nothing
 	}
 }
